@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score keeeper App</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    
+     <h1 class="header"><i class="fa fa-trophy" aria-hidden="true"></i> <span class="headcolor">Score Keeper App</span></h1>   
+<div class="container">
+ <div class= "row">
+ <div class="col-md-12 col-12">
+            <div class="jumbotron">
+    <h2 class="text-xs-center"><span class="p1">Player 1 </span> vs <span class="p2">Player 2</span> </h1>
+    <h1 class="text-xs-center"> <span class="p1score">0</span> - <span class="p2score">0</span>   </h3> 
+        <h2><span id="winningmessage"></span></h2>
+           </div>
+     
+  <div class="form1">
+      <h5>Winning Number :&nbsp <span id="playingnumber"> 5</span></h5>
+<span >Playing For : </span>
+ <input type="number" id="inp"  >
+ <button id="button1" type="button" class="btn btn-outline-primary">PLAYER 1</button>
+ <button id="button2"type="button" class="btn btn-outline-success">PLAYER 2</button> 
+ <button id="reset" type="button" class="btn btn-outline-danger">RESET</button></div>
+           
+</div>  </div></div>
+
+
+
+  
+    
+    <script src="score.js"></script>
+</body>
+</html>

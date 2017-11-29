@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+    }
+ .headcolor{
+    color:#ff0066;
+ }   
+body{
+  padding-top: 30px;
+
+}
+
+.jumbotron{
+    margin-top: 8px;
+    text-align: center;
+    
+}
+
+input{
+    width:400px; 
+    height: 35px;
+}
+.p1{
+    color:#374DAD;
+}
+.p2{
+    color:#2FB30E;
+}
+h5{
+    margin-bottom: 20px;
+}
+
+.form1{
+    display: inline ;
+}
+
+#inp {
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-outline-primary{
+    margin-right: 10px;
+}
+.btn-outline-success{
+    margin-right: 10px;
+}
+
+.winner{
+    color:green;
+}
